@@ -1,0 +1,42 @@
+{
+  "task": {
+    "title": "Validate a profile update",
+    "expected_phrase": "input validation"
+  },
+  "plan": {
+    "objective": "Validate a profile update",
+    "acceptance_criterion": "Output contains: input validation"
+  },
+  "runner_output": "Implementation completed with input validation.",
+  "result": {
+    "status": "passed",
+    "summary": "Task completed and verified."
+  },
+  "audit_trail": [
+    {
+      "step": "TASK",
+      "status": "accepted",
+      "detail": "Validate a profile update"
+    },
+    {
+      "step": "ARCHITECT",
+      "status": "planned",
+      "detail": "Output contains: input validation"
+    },
+    {
+      "step": "RUNNER",
+      "status": "completed",
+      "detail": "Implementation completed with input validation."
+    },
+    {
+      "step": "TESTER",
+      "status": "passed",
+      "detail": "Deterministic assertion passed."
+    },
+    {
+      "step": "CONTROLLER",
+      "status": "passed",
+      "detail": "Task completed and verified."
+    }
+  ]
+}

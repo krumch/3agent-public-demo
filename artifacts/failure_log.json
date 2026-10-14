@@ -1,0 +1,43 @@
+{
+  "task": {
+    "title": "Validate a profile update",
+    "expected_phrase": "input validation"
+  },
+  "plan": {
+    "objective": "Validate a profile update",
+    "acceptance_criterion": "Output contains: input validation"
+  },
+  "runner_output": "Implementation completed with input validation.",
+  "result": {
+    "status": "failed",
+    "summary": "Task was not released because the test gate failed.",
+    "error_code": "TEST_GATE_FAILED"
+  },
+  "audit_trail": [
+    {
+      "step": "TASK",
+      "status": "accepted",
+      "detail": "Validate a profile update"
+    },
+    {
+      "step": "ARCHITECT",
+      "status": "planned",
+      "detail": "Output contains: input validation"
+    },
+    {
+      "step": "RUNNER",
+      "status": "completed",
+      "detail": "Implementation completed with input validation."
+    },
+    {
+      "step": "TESTER",
+      "status": "failed",
+      "detail": "Expected phrase assertion failed."
+    },
+    {
+      "step": "CONTROLLER",
+      "status": "failed",
+      "detail": "Task was not released because the test gate failed."
+    }
+  ]
+}
